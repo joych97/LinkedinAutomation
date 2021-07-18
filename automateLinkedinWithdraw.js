@@ -1,4 +1,3 @@
-async function automateLinkedin(){
 var x = document.querySelectorAll("button.artdeco-button--tertiary");
 for (var i=0;i<x.length; i++){  /* This loop will find all the withdraw buttons and click them*/
 	if(x[i].innerText == "Withdraw"){
@@ -24,4 +23,4 @@ for (var i=0;i<x.length; i++){  /* This loop will find all the withdraw buttons 
 		await new Promise(r => setTimeout(r, 2000)); /* This is just done because if we do not wait for sometime between 2 
 														withdraws linkedin does not recognizes it.*/
 	}
-}}
+}
