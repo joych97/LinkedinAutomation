@@ -1,2 +1,2 @@
 # LinkedinAutomation
-Automating the witrhdraw/ accept connection request
+Automating the withdraw/ accept connection request flows.
